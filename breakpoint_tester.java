@@ -24,7 +24,7 @@ public class breakpoint_tester {
          * have been copied to view and are order as in the original rectnagular
          * area of sky
          */
-        public SkyView( int numRows, int numCols, double[] scanned ) {
+        public void SkyView( int numRows, int numCols, double[] scanned ) {
             view = new double[numRows][numCols];
             int count = scanned.length;
             int index = 0 ;

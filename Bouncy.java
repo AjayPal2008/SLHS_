@@ -10,19 +10,15 @@ public class Bouncy {
             System.out.println("sorry input has to be larger than 100");
             System.exit(0);
         }
-
         String n = Integer.toString(a);
         for(int i = 0; i<n.length()-1;i++){
             if(n.charAt(i)<n.charAt(i+1)){
                 ascend++;
-
             }
             if(n.charAt(i)>n.charAt(i+1)){
                 descend++;
-
             }
         }
-
         int u = n.length()-1;
         if(u==ascend||u==descend){
             System.out.println("\n \n \n \n "+a +"\t is not a bouncy no.");
@@ -30,8 +26,5 @@ public class Bouncy {
         else {
             System.out.println("\n \n \n \n "+a +"\t is  a bouncy no.");
         }
-
-
     }
-
 }
